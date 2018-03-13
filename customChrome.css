@@ -1,9 +1,16 @@
-/* My configuration is going here to make merges easier. I'm testing this with NixOS currently.
-This will probably be replaced with a more nixos-like system in the future */
+/* 
+  My configuration is going here to make merges easier. 
+  I'm testing this with NixOS currently.
+  This will probably be replaced with a more nixos-like system in the future.
+
+  Ideas for Nix: A nixos module that will automagically generate this file
+  Ideas for Nix: Apply a patch to the raw repo as it is cloned
+*/
 @import "ui/gnome-3.26-dark.css";
 @import "ui/hide-single-tab.css";
 @import "ui/matching-autocomplete-width.css";
-/*@import "ui/csd.css"; TODO*/
+@import "ui/private-urlbar.css";
+/*@import "ui/csd.css"; TODO: Enable this once Firefox 59 is released */
 
 input, select {
   color: white;
