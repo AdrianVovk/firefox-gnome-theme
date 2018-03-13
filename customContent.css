@@ -1,3 +1,7 @@
+/*
+  Configures browser content to folllow the system theme
+  I am using this file to maintain compatibility with NixOS and home-manager
+*/
 @import "pages/about-dark.css";
 @import "pages/view-source-dark.css";
 
